@@ -24,7 +24,8 @@ class AddressesApi(object):
         'note': 'note',
         'location_id': 'location_id',
         'firewall_address_object': 'firewallAddressObject',
-        'exclude_ping': 'excludePing'
+        'exclude_ping': 'excludePing',
+        'last_seen': 'lastSeen'
     }
 
     def __init__(self, phpipam=None):
